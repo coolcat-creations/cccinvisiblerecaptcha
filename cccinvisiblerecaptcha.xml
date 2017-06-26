@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.7.0" group="fields" method="upgrade">
+	<name>plg_fields_cccinvisiblerecaptcha</name>
+	<author>Elisa Foltyn - Coolcat Creations</author>
+	<creationDate>June 2017</creationDate>
+	<copyright>Copyright (C) 2017 Coolcat-Creations, Elisa Foltyn</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>joomla@coolcat-creations.com</authorEmail>
+	<authorUrl>www.coolcat-creations.com</authorUrl>
+	<version>1.0</version>
+	<description>PLG_FIELDS_CCCINVISIBLERECAPTCHA_DESC</description>
+	<files>
+		<filename plugin="cccinvisiblerecaptcha">cccinvisiblerecaptcha.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_fields_cccinvisiblerecaptcha.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_fields_cccinvisiblerecaptcha.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+						name="secretkey"
+						type="text"
+						filter="text"
+						label="PLG_FIELDS_CCCINVISIBLERECAPTCHA_PARAMS_SECRETKEY_LABEL"
+						description="PLG_FIELDS_CCCINVISIBLERECAPTCHA_PARAMS_SECRETKEY_DESC"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
