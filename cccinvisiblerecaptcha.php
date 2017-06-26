@@ -18,7 +18,7 @@ class PlgFieldsCccinvisiblerecaptcha extends FieldsPlugin
 	public function onCustomFieldsPrepareDom($field, DOMElement $parent, JForm $form)
 	{
 
-		JHtml::_('script', 'https://www.google.com/recaptcha/api.js', array('version' => 'auto', 'relative' => true), array('defer' => true, 'async' => true));
+		JHtml::_('script', 'https://www.google.com/recaptcha/api.js', array('version' => 'auto', 'defer' => true, 'async' => true));
 
 		$plugin = JPluginHelper::getPlugin('fields', 'cccinvisiblerecaptcha');
 		$globalparams = new JRegistry($plugin->params);
