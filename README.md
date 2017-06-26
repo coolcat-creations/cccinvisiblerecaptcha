@@ -9,7 +9,7 @@ Install the plugin with the Joomla installer
 activate the plugin and setup the secretkey in the plugin parameters
 
 ## Usage
-Add the field in the context user or in the contect form in com_contact
+Add the field in com_user or in the context form of com_contact
 
 - to see if your field works, check your form and see if there is the Google invisible recaptcha badge in the right corner of your website.
 
