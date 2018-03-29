@@ -1,3 +1,6 @@
+# This plugin is not maintained an causes errors - it's not for productive use!
+
+
 # cccinvisiblerecaptcha
 CustomField plugin for Joomla! Contactform and Userregistration Context. Includes a Google invisible recaptcha Field.
 
